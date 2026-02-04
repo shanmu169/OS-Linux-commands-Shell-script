@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/1247259b-344f-4cc7-9d9a-bba8f5ba1860" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -199,45 +199,51 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-<img width="541" height="54" alt="image" src="https://github.com/user-attachments/assets/f72d4095-8efa-4ab2-9382-fbab517a9290" />
 
+<img width="538" height="75" alt="image" src="https://github.com/user-attachments/assets/c038ed4b-b117-4b4a-8e34-37379c8d9efd" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-<img width="541" height="54" alt="image" src="https://github.com/user-attachments/assets/f08e5ed6-2942-4e35-a90a-2766dff5e309" />
 
+
+<img width="541" height="60" alt="image" src="https://github.com/user-attachments/assets/71e1bd01-c500-400c-bd82-817f42111658" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
-<img width="541" height="60" alt="image" src="https://github.com/user-attachments/assets/fc1bf412-ab83-464b-a154-81d148f44d7d" />
+<img width="541" height="54" alt="image" src="https://github.com/user-attachments/assets/ebebec51-b48e-4de7-a0b9-a3e7eee412b2" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-<img width="543" height="75" alt="image" src="https://github.com/user-attachments/assets/8ecb9579-afc2-4f41-b076-24334e9b83ac" />
+<img width="543" height="75" alt="image" src="https://github.com/user-attachments/assets/f40067e3-e8a6-4fef-baf7-763575336e6f" />
+
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="545" height="57" alt="image" src="https://github.com/user-attachments/assets/b34b21b5-ee03-4d3f-83b2-f62952984cd1" />
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="545" height="57" alt="image" src="https://github.com/user-attachments/assets/715dfda7-f235-4e2a-87fd-50f3543eb944" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="545" height="57" alt="image" src="https://github.com/user-attachments/assets/2e71fe89-345e-40c7-b84e-285933db9fab" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="549" height="76" alt="image" src="https://github.com/user-attachments/assets/c637ca8d-41be-4532-be3b-960dffb10ad4" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="381" height="52" alt="image" src="https://github.com/user-attachments/assets/80132957-06a2-42fe-bf09-596a62c1a3df" />
 
 
 cat > file23
@@ -256,79 +262,96 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+<img width="545" height="97" alt="image" src="https://github.com/user-attachments/assets/37c7d205-5be4-443b-86e5-b4b0ca321e94" />
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="428" height="49" alt="image" src="https://github.com/user-attachments/assets/3ba21703-7316-4dda-bf55-1b14a5b4295e" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+<img width="424" height="200" alt="image" src="https://github.com/user-attachments/assets/97863b9e-7293-4c7b-af84-a55ef52fbedc" />
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+<img width="424" height="200" alt="image" src="https://github.com/user-attachments/assets/42662325-0283-4a5d-882b-2ed8d1f50b47" />
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="469" height="203" alt="image" src="https://github.com/user-attachments/assets/9d63e4ed-bd9b-45cf-86e6-0f46fb090d9a" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="470" height="139" alt="image" src="https://github.com/user-attachments/assets/eb82b939-b9ae-4c83-ab9b-835420b4eaad" />
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="469" height="93" alt="image" src="https://github.com/user-attachments/assets/55e944f2-20da-4b74-929a-dcc212196488" />
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+<img width="468" height="69" alt="image" src="https://github.com/user-attachments/assets/d38607c1-91cf-45cc-bacc-d574a552333d" />
 
 
 
 seq 10 
 ## OUTPUT
 
+<img width="470" height="241" alt="image" src="https://github.com/user-attachments/assets/cc046ed3-cb7e-4c36-8d7a-2edf232772c1" />
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="468" height="97" alt="image" src="https://github.com/user-attachments/assets/020d3bf3-cbae-40ac-97b9-1bd703749705" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="468" height="97" alt="image" src="https://github.com/user-attachments/assets/39e644f5-5151-4da1-aa79-eaaa94964c86" />
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="476" height="116" alt="image" src="https://github.com/user-attachments/assets/04401c36-1907-46a1-85cb-ac91ca38927f" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/4d299c22-83bd-4763-9d13-a68b356e77cd" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+<img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/2c243826-e98b-4f7f-84cc-b12fbcf20916" />
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/b1764efd-d153-4546-9a1e-770728a2ea8d" />
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+<img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/16f5b5a5-4a14-4d7f-8031-a51377d12985" />
 
 
 #Sorting File content
