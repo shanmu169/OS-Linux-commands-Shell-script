@@ -262,7 +262,8 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-<img width="545" height="97" alt="image" src="https://github.com/user-attachments/assets/37c7d205-5be4-443b-86e5-b4b0ca321e94" />
+<<img width="381" height="52" alt="image" src="https://github.com/user-attachments/assets/9b7bbf90-0aed-44e9-9313-fd1c02dedf88" />
+
 
 
 
