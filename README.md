@@ -366,6 +366,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Uploading image.png…]()
 
 
 cat > file22
